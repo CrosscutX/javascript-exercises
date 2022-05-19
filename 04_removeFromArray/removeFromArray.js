@@ -1,7 +1,6 @@
 const testArray = ['Alex', "Wheeler", "Matt", 1,2];
 
 const removeFromArray = function(arr, ...arg) {
-    const array = arr;
     let newArray = [];
 
     arr.forEach(item =>{
