@@ -10,11 +10,11 @@ const sum = function(array) {
   return array.reduce((total, current) => total + current, 0);
 };
 
-const multiply = function(...array) {
+const multiply = function(array) {
   return array.reduce((prod, next)=> prod * next, 1)
 };
 
-console.log(multiply(2,5,6,9));
+console.log(multiply(2,3,4,5));
 
 const power = function() {
 	
