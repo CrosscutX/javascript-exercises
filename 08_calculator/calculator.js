@@ -14,7 +14,6 @@ const multiply = function(array) {
   return array.reduce((prod, next)=> prod * next, 1)
 };
 
-console.log(multiply(2,3,4,5));
 
 const power = function() {
 	
